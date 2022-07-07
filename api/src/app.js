@@ -6,7 +6,7 @@ const PORT = 4000;
 
 app.use(cors());
 
-app.get("/api/users", (req, res, next) => {
+app.post("/api/users", (req, res, next) => {
   res.status(200).send([]);
 });
 
