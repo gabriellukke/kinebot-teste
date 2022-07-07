@@ -7,7 +7,7 @@ const PORT = 4000;
 app.use(cors());
 
 app.post("/api/users", (req, res, next) => {
-  res.status(200).send([]);
+  res.status(200).send(data);
 });
 
 app.listen(PORT, () => console.log(`Running app in port: ${PORT}`));
